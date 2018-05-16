@@ -9,7 +9,7 @@ pipeline{
 			
 				echo 'hello world'
 				powershell 'Write-Output "Hello, World, from powershell!"'
-				powershell 'C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\MsBuild.exe CodeAnalysisTest.sln /p:RunCodeAnalysis=true /p:CodeAnalysisLogFile=CodeAnalysis.xml'
+				powershell 'C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\MsBuild.exe CodeAnalysisTest.sln /p:RunCodeAnalysis=true /p:CodeAnalysisLogFile=D:\\CodeAnalysis.xml'
 			
 			}
 
