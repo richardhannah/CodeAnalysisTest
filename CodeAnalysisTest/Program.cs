@@ -10,6 +10,9 @@ namespace CodeAnalysisTest
     {
         static void Main(string[] args)
         {
+            string variablenotused;
+
+            Console.WriteLine("hello world");
         }
     }
 }
