@@ -5,6 +5,7 @@ pipeline{
 			steps{
 			
 				echo 'hello world'
+				powershell 'Write-Output "Hello, World, from powershell!"'
 			
 			}
 
